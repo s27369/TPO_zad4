@@ -18,6 +18,14 @@ public class News {
 
     @Override
     public String toString() {
-        return this.time+": "+this.text;
+        return "["+this.time+"]: "+this.text;
+    }
+
+    public LocalDateTime getTime() {
+        return time;
+    }
+
+    public String getText() {
+        return text;
     }
 }

@@ -17,5 +17,11 @@ public class Topic {
         this.news.add(new News(time, s));
     }
 
+    public String getName() {
+        return name;
+    }
 
+    public List<News> getNews() {
+        return news;
+    }
 }
