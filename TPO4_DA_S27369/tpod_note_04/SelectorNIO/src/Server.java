@@ -17,7 +17,7 @@ public class Server {
 	public static void main(String[] args) throws IOException, InterruptedException {	
 		new Server();
 	}
-	
+
 	Server () throws IOException {
 	
 			// Utworzenie kanału gniazda serwera
